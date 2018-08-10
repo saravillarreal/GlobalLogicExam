@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--General Items-->
+
+    <dimen name="ded_padding_width_item">19dp</dimen>
+    <!-- padding height item match-->
+    <dimen name="ded_padding_height_item">7dp</dimen>
+    <!-- margin width item match-->
+    <dimen name="ded_margin_width_item">8dp</dimen>
+    <!-- margin height item match-->
+    <dimen name="ded_margin_height_item">8dp</dimen>
+
+    <!-- text size title match-->
+    <dimen name="ded_text_match">22sp</dimen>
+    <!-- text size price-->
+
+
+
+
+
+
+
+
+
+</resources>

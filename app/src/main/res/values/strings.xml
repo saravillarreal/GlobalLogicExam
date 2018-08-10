@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GlobalLogicExam</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_description">Description</string>
+
+    <!--Service Errors-->
+
+    <string name="error_server">No se pudo establecer conexión</string>
+</resources>

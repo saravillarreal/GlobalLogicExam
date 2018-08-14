@@ -25,7 +25,7 @@ public class MainInteractorImpl  implements MainInteractorInterface {
     public void callListService(final MainOnListener listener) {
 
         // callService
-        Log.i("callMatchsService", "callMatchsService");
+        Log.i("callListService", "callListService");
         //get unique Instance of ApiService
         apiService = apiService.newInstance();
 
@@ -64,7 +64,7 @@ public class MainInteractorImpl  implements MainInteractorInterface {
 
             @Override
             public void onFailure(Call<ArrayList<MockGlobal>> call, Throwable t) {
-                Log.i("onFailure", "loadMatch");
+                Log.i("onFailure", "loadList");
                 listener.resultListError();
             }
         });

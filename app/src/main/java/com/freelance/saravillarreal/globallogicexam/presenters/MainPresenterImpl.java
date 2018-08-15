@@ -26,7 +26,7 @@ public class MainPresenterImpl  implements MainPresenterInterface, MainOnListene
     }
 
     public MainPresenterImpl(
-            @NonNull MainInteractorInterface interactor, @NonNull MainActivity mainView) {
+            @NonNull MainInteractorInterface interactor, @NonNull MainViewInterface mainView) {
         this.interactor = checkNotNull(interactor, "notesRepository cannot be null");
         this.view = checkNotNull(mainView, "notesView cannot be null!");
     }
